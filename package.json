@@ -1,0 +1,33 @@
+{
+    "name": "front-end-scaffold",
+    "version": "1.0.0",
+    "main": "./assets/js/index.js",
+    "author": "Lucas Akira Ayabe <lucas.ayabe@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack",
+        "serve": "cross-env NODE_ENV=development webpack-dev-server -d --hot --config webpack.config.js --watch --mode development",
+        "build": "cross-env NODE_ENV=production webpack --mode production"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "autoprefixer": "^9.8.4",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "cross-env": "^7.0.2",
+        "css-loader": "^3.6.0",
+        "html-webpack-plugin": "^4.3.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.14.1",
+        "postcss-cli": "^7.1.1",
+        "postcss-font-magician": "^2.3.1",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^9.0.1",
+        "ts-loader": "^7.0.5",
+        "typescript": "^3.9.6",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
